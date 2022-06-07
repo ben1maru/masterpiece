@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="461.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.masterpieces.ViewForm.ViewForm">
+   <children>
+      <Label fx:id="nameLabel" layoutX="14.0" layoutY="14.0" prefHeight="18.0" prefWidth="90.0" text="Назва: " AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label fx:id="categoryLabel" layoutX="15.0" layoutY="39.0" prefHeight="18.0" prefWidth="90.0" text="Категорія: " AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <GridPane layoutX="300.0" layoutY="3.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <TextArea fx:id="descriptionBox" editable="false" layoutX="15.0" layoutY="96.0" prefHeight="344.0" prefWidth="330.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="96.0" />
+      <VBox fx:id="vBox" layoutX="345.0" layoutY="96.0" prefHeight="344.0" prefWidth="386.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="345.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="96.0">
+         <children>
+            <ImageView fx:id="imageBox" fitHeight="320.0" fitWidth="385.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+      <Label fx:id="authorLabel" layoutX="14.0" layoutY="65.0" prefHeight="18.0" prefWidth="90.0" text="Автор: " AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>

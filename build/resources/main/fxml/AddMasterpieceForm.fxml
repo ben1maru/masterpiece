@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.masterpieces.AddMasterpieceForm.AddMasterpieceForm">
+   <children>
+      <TextField fx:id="masterpieceNameTextBox" layoutX="158.0" layoutY="14.0" prefHeight="26.0" prefWidth="478.0" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="15.0" />
+      <Button fx:id="addMasterpieceButton" layoutX="15.0" layoutY="385.0" mnemonicParsing="false" onAction="#addMasterpieceButtonClick" prefHeight="26.0" prefWidth="569.0" text="Додати шедевр" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="14.0" layoutY="18.0" text="Назва шедевру:" />
+      <ChoiceBox fx:id="masterpieceComboBox" layoutX="106.0" layoutY="83.0" prefHeight="26.0" prefWidth="479.0" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="13.0" layoutY="87.0" text="Категорія:" />
+      <Button fx:id="masterpieceImageButton" layoutX="106.0" layoutY="118.0" mnemonicParsing="false" onAction="#pickImageClick" prefHeight="26.0" prefWidth="479.0" text="Вибрати зображення" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="11.0" layoutY="122.0" text="Зображення:" />
+      <TextArea fx:id="masterpieceTextTextBox" layoutX="15.0" layoutY="178.0" prefHeight="200.0" prefWidth="570.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="15.0" layoutY="160.0" text="Текст:" />
+      <TextField fx:id="masterpieceAuthorTextBox" layoutX="106.0" layoutY="49.0" prefHeight="26.0" prefWidth="478.0" />
+      <Label layoutX="13.0" layoutY="53.0" text="Автор шедевру:" />
+   </children>
+</AnchorPane>

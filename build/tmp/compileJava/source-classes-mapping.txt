@@ -1,0 +1,22 @@
+ua/masterpieces/utils/FormUtils.java
+ ua.masterpieces.utils.FormUtils
+ua/masterpieces/RegisterForm/RegisterForm.java
+ ua.masterpieces.RegisterForm.RegisterForm
+ua/masterpieces/Connector.java
+ ua.masterpieces.Connector
+ua/masterpieces/Loader.java
+ ua.masterpieces.Loader
+ua/masterpieces/Constants.java
+ ua.masterpieces.Constants
+ua/masterpieces/DeleteMasterpieceForm/DeleteMasterpieceForm.java
+ ua.masterpieces.DeleteMasterpieceForm.DeleteMasterpieceForm
+ua/masterpieces/ViewForm/ViewForm.java
+ ua.masterpieces.ViewForm.ViewForm
+ua/masterpieces/Main.java
+ ua.masterpieces.Main
+ua/masterpieces/AuthForm/AuthForm.java
+ ua.masterpieces.AuthForm.AuthForm
+ua/masterpieces/AddMasterpieceForm/AddMasterpieceForm.java
+ ua.masterpieces.AddMasterpieceForm.AddMasterpieceForm
+ua/masterpieces/MainForm/MainForm.java
+ ua.masterpieces.MainForm.MainForm
